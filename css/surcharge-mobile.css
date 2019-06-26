@@ -442,7 +442,7 @@ header.site-banner .inside .logo {
     width: 73px;
     height: 76px;
     background-repeat: no-repeat;
-    z-index: 4;
+    z-index: 99;
 }
 
 header.site-banner .inside .logo .logo_sticky {
@@ -1459,7 +1459,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     position: absolute;
     width: auto;
     height: auto;
-    bottom: 100px;
+    bottom: 150px;
     left: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1503,6 +1503,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     color: #ffffff;
     font-size: 12px;
     font-weight: 100;
+    text-align: left;
 }
 
 .site-footer .inside .quicklinks .ql-list .ql-item .btn-primary:hover {
@@ -2078,6 +2079,11 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     background-position: -1508px -169px;
 }
 
+.article .wrapper .article-navigation .an-item-publication,
+  .contact .wrapper .article-navigation .an-item-publication {
+    display: none;
+}
+
 .contact .wrapper {
     padding-top: 400px;
 }
@@ -2208,19 +2214,31 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: 100px;
 }
 
 .front .wrapper #zone2 .quicklinks .ql-list .ql-item a {
     color: #4a4a4a;
+    padding-top: 50px;
     background-color: transparent;
     padding: 0;
     border: none;
     text-decoration: none;
     font-size: 12px;
     text-align: center;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 .front .wrapper #zone2 .quicklinks .ql-list .ql-item a:hover {
@@ -2229,6 +2247,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .front .wrapper #zone2 .quicklinks .ql-list .ql-item.linkid744444 {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .front .wrapper #zone2 .quicklinks .ql-list .ql-item.linkid744444:before {
@@ -2239,7 +2258,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     width: 43px;
     height: 43px;
     background-position: -366px -331px;
-    top: -51px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -2260,7 +2279,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     width: 44px;
     height: 43px;
     background-position: -5px -58px;
-    top: -51px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -2271,6 +2290,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .front .wrapper #zone2 .quicklinks .ql-list .ql-item.linkid744446 {
     position: relative;
+    padding-bottom: 10px;
 }
 
 .front .wrapper #zone2 .quicklinks .ql-list .ql-item.linkid744446:before {
@@ -2281,7 +2301,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     width: 43px;
     height: 43px;
     background-position: -58px -5px;
-    top: -51px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -5295,6 +5315,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item img {
     width: 100%;
+    max-height: 120px;
 }
 
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content {
@@ -5335,7 +5356,11 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     font-family: "Avenir", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
-    word-break: break-word;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    overflow: hidden;
 }
 
 .article_list .list-articles .inside .cxp-pagination .la-list .la-item .la-item-content .la-item-title a:hover {
@@ -5393,6 +5418,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item img {
     width: 100%;
+    max-height: 120px;
 }
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item .gla-item-content {
@@ -5437,7 +5463,11 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     font-family: "Avenir", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
-    word-break: break-word;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    overflow: hidden;
 }
 
 .article_list .list-articles .inside .cxp-pagination .grid-la-list .gla-item .gla-item-content .gla-item-title a:hover {

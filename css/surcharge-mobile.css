@@ -1563,8 +1563,6 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     position: absolute;
     z-index: -1;
     top: 100px;
-    -webkit-animation: cloud 8s infinite;
-    animation: cloud 8s infinite;
     background-size: cover;
     transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;

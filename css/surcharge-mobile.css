@@ -1543,7 +1543,6 @@ header.site-banner.headroom--not-top .inside .global-search-form {
   /* GENERAL */
     position: relative;
     z-index: 1;
-    overflow-x: hidden;
   /* ARTICLE TITLE */
   /* ARTICLE INTRO */
   /* BLOCS */

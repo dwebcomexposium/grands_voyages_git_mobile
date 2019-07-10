@@ -858,7 +858,8 @@ header.site-banner .inside .main-navigation {
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu {
     background-color: #004585;
-    padding-top: 120px;
+    padding-top: 210px;
+    padding-bottom: 50px;
     padding-right: 0;
     max-height: -webkit-calc( 100vh - 72px);
     max-height: calc( 100vh - 72px);
@@ -882,6 +883,10 @@ header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1#widgetMobileLinkOpenCap {
     background-color: #ffffff;
+    position: fixed;
+    top: 181px;
+    width: 100%;
+    z-index: 1000;
 }
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu .mn-menu-item.mn-item-lvl-1#widgetMobileLinkOpenCap a {
@@ -2268,6 +2273,8 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     font-size: 16px;
     line-height: 16px;
     width: 80%;
+    text-transform: uppercase;
+    line-height: 1.4;
 }
 
 .front .wrapper #zone2 .article-focus:first-of-type p {
@@ -2809,18 +2816,18 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     height: auto;
     z-index: 1;
         /* &:after{
-					content: '';
-					position: absolute;
-					background-image: url(img/home_map.png);
-					width: 1223px;
-					height: 100%;
-					background-repeat: no-repeat;
-					background-size: contain;
-					max-width: 75%;
-					left: 0;
-					top: 50%;
-					@include transformY;
-				} */
+          content: '';
+          position: absolute;
+          background-image: url(img/home_map.png);
+          width: 1223px;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: contain;
+          max-width: 75%;
+          left: 0;
+          top: 50%;
+          @include transformY;
+        } */
 }
 
 .front .wrapper #zone2 .custom_fk .map {
@@ -2857,10 +2864,9 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     text-transform: uppercase;
     font-size: 17px;
     line-height: 27px;
-    text-align: right;
+    text-align: center;
     padding-bottom: 50px;
     font-family: "Avenir LT Std 65", sans-serif;
-    max-width: 60%;
 }
 
 .front .wrapper #zone2 .custom_fk ul {

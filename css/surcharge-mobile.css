@@ -852,8 +852,8 @@ header.site-banner .inside .main-navigation {
     top: 62px;
     background-color: #004585;
     position: fixed;
-    height: -webkit-calc(100vh - 62px);
-    height: calc(100vh - 62px);
+    height: -webkit-calc(90vh - 62px);
+    height: calc(90vh - 62px);
     z-index: 99;
 }
 
@@ -1431,6 +1431,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     padding: 5px;
     -webkit-appearance: none;
     margin-left: 25px;
+    border: none;
 }
 
 .site-footer .inside .newsletter-form .nf-main-content .inside .nf-form-item .nf-form-submit {

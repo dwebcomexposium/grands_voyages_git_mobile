@@ -5009,6 +5009,11 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     margin-bottom: 20px;
 }
 
+.espace-pro .wrapper .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-img {
+    max-height: 250px;
+    min-height: 250px;
+}
+
 .espace-pro .wrapper .list-articles:nth-of-type(7) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content {
     background-color: #004585;
     padding: 0;

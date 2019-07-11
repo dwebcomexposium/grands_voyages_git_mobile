@@ -766,7 +766,7 @@ header.site-banner .inside .sb-menu-trigger {
     left: 0;
     width: 25px;
     height: 25px;
-    z-index: 999;
+    z-index: 998;
 }
 
 header.site-banner .inside .sb-menu-trigger:after {
@@ -859,7 +859,7 @@ header.site-banner .inside .main-navigation {
 
 header.site-banner .inside .main-navigation .mn-menu-line .mn-menu {
     background-color: #004585;
-    padding-top: 210px;
+    padding-top: 180px;
     padding-bottom: 50px;
     padding-right: 0;
     max-height: -webkit-calc( 100vh - 72px);

@@ -1794,6 +1794,9 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 .article .wrapper .article-intro p,
     .contact .wrapper .article-intro p {
     text-align: center;
+    font-family: "Avenir", sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .article .wrapper .article-content,
@@ -1854,8 +1857,8 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .article .wrapper .article-content figure img,
       .contact .wrapper .article-content figure img {
-    max-width: 100%;
-    width: 100%;
+        /* max-width: 100%;
+        width: 100%; */
     margin: 0 auto;
     display: block;
 }

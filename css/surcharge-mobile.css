@@ -3685,11 +3685,11 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     border-color: #004585;
 }
 
-.catalogue.exposant .wrapper #filtersExhibitorsModal .esf-as-filters-group-title .btn-to-close {
+.catalogue.exposant .wrapper #filtersExhibitorsModal .esf-as-filters-group-title button {
     color: #004585;
 }
 
-.catalogue.exposant .wrapper #filtersExhibitorsModal .esf-as-filters-group-title .btn-to-close:hover, .catalogue.exposant .wrapper #filtersExhibitorsModal .esf-as-filters-group-title .btn-to-close:focus {
+.catalogue.exposant .wrapper #filtersExhibitorsModal .esf-as-filters-group-title button:hover, .catalogue.exposant .wrapper #filtersExhibitorsModal .esf-as-filters-group-title button:focus {
     color: #004585;
 }
 
@@ -3698,6 +3698,10 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 }
 
 .catalogue.exposant .wrapper #filtersExhibitorsModal .esf-panels .esf-tree .esf-sublvl-heading {
+    background-color: #004585;
+}
+
+.catalogue.exposant .wrapper #filtersExhibitorsModal .esf-panels .esf-tree .esf-sublvl-heading button {
     background-color: #004585;
 }
 

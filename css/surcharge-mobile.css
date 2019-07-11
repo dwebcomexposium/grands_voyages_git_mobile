@@ -1535,6 +1535,10 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     margin-top: 40px;
 }
 
+.site-footer .inside .footer_txt .logo .logo_sticky {
+    margin-top: 20px;
+}
+
 .site-footer .inside .quicklinks {
     max-width: 800px;
     margin: 0 auto;
@@ -2343,9 +2347,9 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .front .wrapper #zone2 .article-focus:first-of-type .af-title {
     color: #ffffff;
-    text-align: center;
-    font-size: 16px;
-    line-height: 16px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
     width: 80%;
     text-transform: uppercase;
     line-height: 1.4;
@@ -2510,11 +2514,12 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 }
 
 .front .wrapper #zone2 .article-focus:nth-of-type(3) .af-title {
-    font-family: "Avenir LT Std 65", sans-serif;
+    font-family: "Avenir LT Std 65", sans-serif, sans-serif;
     text-transform: uppercase;
     font-size: 15px;
     line-height: 25px;
     padding-bottom: 20px;
+    text-align: left;
 }
 
 .front .wrapper #zone2 .article-focus:nth-of-type(3) p {
@@ -2958,7 +2963,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 .front .wrapper #zone2 .custom_fk .af-title {
     text-transform: uppercase;
     font-size: 15px;
-    line-height: 27px;
+    line-height: 25px;
     text-align: left;
     padding-bottom: 50px;
     font-family: "Avenir LT Std 65", sans-serif;
@@ -3065,13 +3070,13 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .front .wrapper #zone2 .article-focus:nth-of-type(6) .af-title {
     text-transform: uppercase;
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 25px;
     text-align: left;
     padding-bottom: 50px;
     font-family: "Avenir LT Std 65", sans-serif;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .front .wrapper #zone2 .article-focus:nth-of-type(6) p {
@@ -3287,11 +3292,12 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
 .front .wrapper #zone2 .article-focus:last-of-type .af-title {
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 15px;
     text-align: left;
     padding-bottom: 50px;
-    line-height: 27px;
+    line-height: 25px;
     max-width: 100%;
+    font-family: "Avenir LT Std 65", sans-serif;
 }
 
 .front .wrapper #zone2 .article-focus:last-of-type p {

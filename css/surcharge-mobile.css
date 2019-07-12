@@ -2242,9 +2242,10 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 .contact .wrapper .contacts-list h1 {
     text-align: center;
     color: #ffffff;
-    font-size: 27px;
+    font-size: 17px;
     margin-top: -50px;
     margin-bottom: 50px;
+    line-height: 27px;
 }
 
 .contact .wrapper .cl-content .cl-item {
@@ -3984,6 +3985,10 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     color: #02498a;
 }
 
+.partner .wrapper .block.block-page.partner-list .pl-main-content .pl-item-group .pl-item .pl-item-content .pl-item-read-more .link-read-more i {
+    display: none;
+}
+
 .partner .wrapper .block.block-page.partner-list .pl-trigger-wrap {
     border-top: 4px solid #d2e7e1;
 }
@@ -5004,6 +5009,12 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     color: #ffffff;
     font-family: "Avenir", sans-serif;
     text-transform: uppercase;
+}
+
+.espace-pro .wrapper .list-articles:nth-of-type(4) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc, .espace-pro .wrapper .list-articles:nth-of-type(5) .inside .cxp-pagination .grid-la-list .gla-item a .gla-item-content .gla-item-desc {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Avenir", sans-serif;
 }
 
 .espace-pro .wrapper .list-articles:nth-of-type(4) .inside .cxp-pagination .grid-la-list .gla-item a:hover .gla-item-content .gla-item-btn .gla-btn-read-more, .espace-pro .wrapper .list-articles:nth-of-type(5) .inside .cxp-pagination .grid-la-list .gla-item a:hover .gla-item-content .gla-item-btn .gla-btn-read-more {

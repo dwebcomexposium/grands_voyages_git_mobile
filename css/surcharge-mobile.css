@@ -1309,6 +1309,12 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     display: none;
 }
 
+@media (max-width: 350px) {
+    header.site-banner .inside .block.block-small.quicklinks .ql-list .ql-item a {
+        font-size: 8px;
+    }
+}
+
 .cc-cookies .inside {
     color: #ffffff;
 }
@@ -1595,6 +1601,17 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 
     .site-footer .inside .quicklinks {
         max-width: 650px;
+    }
+}
+
+@media (max-width: 350px) {
+    .site-footer .inside .footer_txt .logo {
+        bottom: 170px;
+    }
+
+    .site-footer .inside .quicklinks .ql-list .ql-item {
+        width: 50%;
+        text-align: left;
     }
 }
 
@@ -3322,6 +3339,12 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     padding: 20px;
     font-size: 12px;
     display: block;
+}
+
+@media (max-width: 350px) {
+    .front .wrapper #zone2 .quicklinks {
+        margin-top: -50px;
+    }
 }
 
 .catalogue.exposant {

@@ -5999,6 +5999,11 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     border: 1px solid #004585;
 }
 
+.page-events .wrapper #event_result_zone .evl-event-buttons.catal-ex-item-buttons-small .btn-primary.with-icon.js-mySelection .icon-catal.icon-catal-star-empty:before {
+    line-height: 2;
+    margin-left: 12px;
+}
+
 .page-events .wrapper #event_result_zone .catal-ed-activity-link {
     color: #004585;
 }

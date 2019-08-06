@@ -7390,3 +7390,20 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 .page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-theme .evd-infos-theme-item .evd-infos-stand-link {
     color: #004585;
 }
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-type .evd-infos-type-item:before {
+    border: 2px solid #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-type .evd-infos-type-item .evd-infos-stand-link {
+    color: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .block.block-page.list-articles .icon-catal.icon-catal-short-arrow-right {
+    color: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .block.block-page.list-articles .slider-pagin-item.is-active {
+    background: #004585;
+    border-color: #004585;
+}

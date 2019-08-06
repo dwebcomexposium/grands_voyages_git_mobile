@@ -7307,3 +7307,86 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 .article_list.france .list-articles .inside .main-title-with-link:after {
     background-image: url("img/header_FRANCE.jpg");
 }
+
+.page-details.page-events.event .wrapper #zone2 {
+    padding-top: 250px;
+}
+
+.page-details.page-events.event .wrapper #zone2 .catal-nav-ex.mod-catal {
+    width: -webkit-calc(100%);
+    width: calc(100%);
+}
+
+.page-details.page-events.event .wrapper #zone2 .catal-nav-ex.mod-catal .catal-nav-ex-more-link {
+    color: #000000;
+}
+
+.page-details.page-events.event .wrapper #zone2 .catal-nav-ex.mod-catal .catal-nav-ex-more-link .icon-catal.icon-catal-chevrons:before {
+    color: #000000;
+}
+
+.page-details.page-events.event .wrapper #zone2 .catal-nav-ex.mod-catal .catal-nav-ex-search-new {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.page-details.page-events.event .wrapper #zone2 .catal-nav-ex.mod-catal .catal-nav-ex-search-new .btn-primary.btn-medium {
+    background: #004585;
+    padding: 10px;
+    border: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .event-details.mod-catal.event-view-full.topic_thematiques .block.block-page.edito.mod-catal .inside div h1 {
+    padding-top: 36px;
+    color: #004585;
+    font-weight: 700;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .evd-slider-cover .block.block-page.list-articles .la-item-btn .catal-ex-item-buttons-small .btn-primary.with-icon.ac-js-switcher-remote {
+    background: #004585;
+    border: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .evd-slider-cover .block.block-page.list-articles .la-item-btn .catal-ex-item-buttons-small .btn-primary.with-icon.js-mySelection {
+    background: #004585;
+    border: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .evd-desc.evd-group .evd-org-name.evd-name, .page-details.page-events.event .wrapper #zone2 .evd-wrapper .evd-desc.evd-group h4 {
+    font-size: 14px;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .evd-desc.evd-group .catal-ed-activity-link {
+    color: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .evd-desc.evd-group .evd-content h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group {
+    background: #ffffff;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-date .evd-infos-date-title.evd-title {
+    color: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-stand .evd-infos-stand-item .icon-catal.icon-catal-localisation {
+    color: #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-theme .evd-infos-theme-item:before {
+    border: 2px solid #004585;
+}
+
+.page-details.page-events.event .wrapper #zone2 .evd-wrapper .js-active-group.evd-infos.evd-group .evd-infos-theme .evd-infos-theme-item .evd-infos-stand-link {
+    color: #004585;
+}

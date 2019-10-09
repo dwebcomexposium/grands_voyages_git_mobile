@@ -3642,6 +3642,13 @@ header.site-banner.headroom--not-top .inside .global-search-form {
     z-index: 0;
 }
 
+.catalogue.exposant .wrapper .catal-ed-main .catal-ed-main-cover {
+    margin-left: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
 .catalogue.exposant .wrapper .block.block-page.catal-ex.mod-catal .catal-ex-item {
     border-bottom: 1px solid #979797;
     padding: 20px;

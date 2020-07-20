@@ -9027,3 +9027,7 @@ header.site-banner.headroom--not-top .inside .global-search-form {
 .catalogue.marque.fiche .zone .catal-other-prd .catal-other-prd-list .catal-other-prd-actions {
     display: none;
 }
+
+div#catalog-v2 {
+    margin-top: 120px;
+}
